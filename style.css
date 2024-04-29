@@ -1,0 +1,122 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: rgb(54, 54, 54);
+}
+#child1 {
+  height: 40px;
+  width: 35%;
+  border: 2px solid rgb(54, 54, 54);
+}
+
+#child2 {
+  color: whitesmoke;
+  background-color: rgba(3, 0, 0, 0.3);
+  height:120vh;
+  width: 35%;
+  overflow-x: hidden;
+  overflow-y:hidden;
+  overflow-y:scroll;
+  
+}         
+       
+#adjust-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#top-icon {
+  display: flex;
+}
+
+#search-bar {
+  text-align: center;
+}
+
+#search-bar input {
+  margin-top: 4px;
+  width: 80%;
+  border-radius: 5px;
+  border-color: white;
+  
+}
+
+/* #search-bar input:hover {
+    transition: all 0.7s;
+    background-color: rgb(110, 244, 244);
+  } */
+
+.profiles {
+  margin: 4px;
+}
+
+.pro {
+  display:flex;
+  margin-top: 20px;
+  align-items: center; 
+
+}
+
+#my-dp img {
+  border-radius: 50%;
+  height: 20px;
+}
+
+#main-content {
+  background-color: blue;
+}
+
+.one-pro {
+  display: inline;
+}
+
+.one-pro-name {
+  justify-content: space-around;
+  font-size: 18px;
+  margin-left: 10px;
+  
+
+}
+
+.my-dp {
+  margin: 3px;
+  color: aliceblue;
+}
+
+#adjust-div {
+  margin: 4px;
+}
+
+.name-time {
+  display: flex;
+  justify-content:space-evenly;
+  margin-left: 10px;
+  align-items:center;
+
+
+}
+
+ .time {
+  font-size:x-small;
+  display: block;
+  position: relative;
+ left: 60%;
+ 
+} 
+
+
+/* #parent{
+  display:flex;
+} */
+
+.main-img{
+  margin-left:500px;
+  margin-top: 200px;
+  height:200px;
+  width: 300px;
+  
+
+}
+
